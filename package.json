@@ -1,0 +1,20 @@
+{
+  "name": "use-null-ref",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.ts",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "keywords": [],
+  "author": "iyegoroff <iegoroff@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.16",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}
