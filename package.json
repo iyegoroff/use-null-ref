@@ -1,7 +1,7 @@
 {
   "name": "use-null-ref",
   "version": "0.0.0",
-  "description": "",
+  "description": "const useNullRef = <T>() => useRef<T>(null)",
   "main": "dist/index.js",
   "types": "dist/index.ts",
   "scripts": {
