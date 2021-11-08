@@ -18,7 +18,7 @@
   },
   "scripts": {
     "preversion": "npm run build",
-    "postversion": "git push && git push --tags",
+    "postversion": "git add . && git commit -am build || : && git push && git push --tags && npm publish",
     "build:dts": "tsc -p configs/tsconfig.dts.json",
     "build:esm": "tsc -p configs/tsconfig.esm.json",
     "build:cjs": "tsc -p configs/tsconfig.cjs.json",
