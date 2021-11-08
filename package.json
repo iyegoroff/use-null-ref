@@ -1,6 +1,6 @@
 {
   "name": "use-null-ref",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "const useNullRef = <T>() => useRef<T>(null)",
   "sideEffects": false,
   "main": "./dist/cjs/index.js",
@@ -24,7 +24,9 @@
     "build:cjs": "tsc -p configs/tsconfig.cjs.json",
     "build": "rm -rf dist && mkdir dist && npm run build:dts && npm run build:esm && npm run build:cjs"
   },
-  "keywords": ["react-hook"],
+  "keywords": [
+    "react-hook"
+  ],
   "files": [
     "dist",
     "src"
