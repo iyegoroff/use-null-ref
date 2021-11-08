@@ -1,21 +1,16 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
     "sourceMap": true,
-    "target": "es6",
-    "declaration": true,
+    "target": "es2018",
     "strict": true,
     "moduleResolution": "node",
-    "esModuleInterop": true,
-    "noEmitOnError": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
     "removeComments": true,
-    "types": [],
+    "esModuleInterop": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "noImplicitReturns": true,
     "allowUnreachableCode": false,
     "noUncheckedIndexedAccess": true,
-    "noPropertyAccessFromIndexSignature": true
+    "types": []
   }
 }
