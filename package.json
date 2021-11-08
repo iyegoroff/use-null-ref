@@ -1,6 +1,6 @@
 {
   "name": "use-null-ref",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "const useNullRef = <T>() => useRef<T>(null)",
   "sideEffects": false,
   "main": "./dist/cjs/index.js",
